@@ -1,0 +1,19 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.divv{
+    background-color: aqua;
+    border: solid;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+label{
+    display: block;
+}
+
+.inline{
+    display: inline;
+}

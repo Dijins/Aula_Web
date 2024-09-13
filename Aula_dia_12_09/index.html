@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulários</title>
+</head>
+<body>
+    <div>
+        <h1>Formulários HTML</h1>
+    </div>
+    <div class="divv">
+        <form action="#" method="post">
+            <div class="daora">
+                <label for="comment">Comentário</label>
+                <textarea cols="50" rows="10" name="comentario" id="comment">
+                </textarea>
+            </div>
+            <div>
+                <label for="n">Nome Completo*</label>
+                <input type="text" placeholder="Ex: Maria da Silva Costa" name="Nome" id="n" required>
+            </div>
+            <div>
+                <label for="qtd">Quantidade</label>
+                <input type="number" name="quantidade" id="qtd" min="1" max="10">
+            </div>
+            <div>
+                <label for="mail">E-mail</label>
+                <input type="email" name="E-mail" id="mail">
+            </div>
+            <div>
+                <label for="nasc">Nascimento</label>
+                <input type="date" name="nascimento" id="nasc">
+            </div>
+            <div>
+                <label for="sn">Senha</label>
+                <input type="password" name="senha" id="sn">
+            </div>
+            <div>
+                <p>Você é feliz?</p>
+                <input type="radio" name="feliz" id="y" checked>
+                <label class="inline" for="y">sim</label>
+                <input type="radio" name="feliz" id="not">
+                <label class="inline" for="not">não</label>
+            </div>
+            <div>
+                <p>O que te faz feliz?</p>
+                <input type="checkbox" value="dinheiro" name="din" id="money">
+                <label class="inline" for="money">Dinheiro</label>
+                <input type="checkbox" value="familia" name="family" id="fam">
+                <label class="inline" for="fam">Família</label>
+                <input  type="checkbox" value="amor" name="love" id="amor">
+                <label class="inline" for="amor">Amor</label>
+                <input type="checkbox" value="ferias" name="ferias" id="vac">
+                <label class="inline" for="vac">Férias</label>
+            </div>
+            <div>
+                <label for="c">Graduação</label>
+                <select name="Curso" id="c">
+                    <option disabled selected></option>
+                    <option value="ADS">Análise Des. Sistemas</option>
+                    <option value="BES">Eng. de Software</option>
+                    <option value="BM">Biomedicina</option>
+                    <option value="FISIO">Fisioterapia</option>
+                </select>
+            </div>
+
+            <input type="submit" value="Salvar">
+        </form>
+    </div>
+    
+</body>
+</html>
