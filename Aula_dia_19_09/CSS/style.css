@@ -1,0 +1,26 @@
+.body{
+    margin: 0;
+}
+
+i{
+    font-size: xx-large;
+    color: black;
+}
+
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+.item{
+    background-color: grey;
+    text-align: center;
+    border: solid;
+    width: 32%;
+}
+
+i:hover{
+    color: rgb(10, 102, 194);
+}
